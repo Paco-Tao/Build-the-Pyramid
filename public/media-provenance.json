@@ -1,0 +1,12 @@
+{
+  "gameIcon": {
+    "file": "game-icon.png",
+    "sourceUrl": "https://thumbnails.roblox.com/v1/games/icons?universeIds=10765012427",
+    "note": "Official Roblox store icon (universe 10765012427); downloaded 2026-09-18 and verified by sha256 against research/media/game_icon_512.png."
+  },
+  "gameCover": {
+    "file": "roblox-official-cover.png",
+    "sourceUrl": "https://thumbnails.roblox.com/v1/assets?assetIds=128108624428660",
+    "note": "Official Roblox store thumbnail (rbxcdn asset 128108624428660); downloaded 2026-09-18 and verified by sha256 against research/media/game_thumb_1.png."
+  }
+}

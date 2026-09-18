@@ -1,0 +1,5 @@
+/* V7 Production Experience accessibility contract. */
+[data-home-primary-action]{background-color:#be185d!important;color:#fff!important}
+footer [class*='text-white/42']{color:rgba(255,255,255,.68)!important}
+a[href^='mailto:']{text-decoration:underline!important;text-underline-offset:3px!important}
+:focus-visible{outline:3px solid #f9a8d4!important;outline-offset:3px!important}
