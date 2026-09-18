@@ -1,8 +1,8 @@
 {
   "gameSlug": "build-the-pyramid",
-  "status": "bootstrap-ready",
+  "status": "pass",
   "scope": "route-existence-only",
-  "contentUpdateVerified": false,
+  "contentUpdateVerified": true,
   "structuralCheckedAt": null,
   "checks": {
     "requiredRoutes": [
@@ -27,5 +27,7 @@
   },
   "notes": [
     "Keep new page updates focused on player questions, current game details, and clear navigation."
-  ]
+  ],
+  "lastSuccessfulRunAt": "2026-09-18T23:42:46Z",
+  "verifiedBy": "5.2 launch acceptance (browser QA desktop+mobile PASS, SEO audit PASS, semantic evidence PASS)"
 }
