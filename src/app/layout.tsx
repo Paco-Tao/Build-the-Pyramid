@@ -1,3 +1,4 @@
+import { AdsterraPopunderGate, AdsterraSocialBarGate, AdsterraStickyRail, AdsterraGlobalFallback } from "@/components/ads";
 import type { Metadata, Viewport } from "next";
 import { Suspense } from "react";
 import Script from "next/script";
@@ -43,6 +44,8 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="en">
       <body className="font-sans">
+        <AdsterraPopunderGate />
+        <AdsterraSocialBarGate />
         {analyticsId ? (
           <>
             <Script src={`https://www.googletagmanager.com/gtag/js?id=${analyticsId}`} strategy="afterInteractive" />
@@ -60,7 +63,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           </>
         ) : null}
         <Navbar />
+        <AdsterraGlobalFallback />
         {children}
+        <AdsterraStickyRail />
         <Footer />
       </body>
     </html>
