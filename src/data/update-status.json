@@ -1,33 +1,25 @@
 {
   "gameSlug": "build-the-pyramid",
-  "status": "pass",
+  "status": "structural-pass",
   "scope": "route-existence-only",
   "contentUpdateVerified": true,
-  "structuralCheckedAt": null,
+  "structuralCheckedAt": "2026-09-23T12:32:48.283Z",
   "checks": {
     "requiredRoutes": [
       "/",
-      "/codes",
-      "/tier-list",
-      "/trello",
-      "/calculator",
-      "/squad-planner",
-      "/resource-calculator",
-      "/guides",
-      "/guides/beginner",
-      "/guides/progression",
-      "/guides/farming",
-      "/wiki",
-      "/wiki/items-and-rewards",
-      "/wiki/maps-and-systems",
-      "/wiki/builds-and-entities",
-      "/updates"
+      "/guide",
+      "/pharaoh",
+      "/about",
+      "/contact",
+      "/disclosure",
+      "/privacy",
+      "/terms"
     ],
     "missingRouteFiles": []
   },
   "notes": [
     "Keep new page updates focused on player questions, current game details, and clear navigation."
   ],
-  "lastSuccessfulRunAt": "2026-09-18T23:42:46Z",
-  "verifiedBy": "5.2 launch acceptance (browser QA desktop+mobile PASS, SEO audit PASS, semantic evidence PASS)"
+  "lastSuccessfulRunAt": "2026-09-23T12:41:06+00:00",
+  "verifiedBy": "2026-09-23 maintenance content update: V8 6.daily/6.2/6.3 reviewed_complete + independent browser review PASS (run 20260923T1205Z-boardqueue59--build-the-pyramid)"
 }

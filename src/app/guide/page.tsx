@@ -91,6 +91,21 @@ const authorityPage = {
       "claim_id": "CLM-CLAIM-GUIDE-VERSION-001",
       "rendered_component": "version-boundary",
       "visible_text": "All numbers were checked against the September 2026 version; prices and requirements can change after updates."
+    },
+    {
+      "claim_id": "CLM-CLAIM-GUIDE-VERSION-002",
+      "rendered_component": "version-boundary",
+      "visible_text": "Since our September 18 check the studio shipped at least two updates: September 19 (added the UPGRADES tab that sells Blocks-Per-Grab, Blocks-Per-Place and Placement-Range steps for Coins, plus the code system) and September 22 (Update 1.5: more pyramids, more gym areas, bug fixes). Update notes are published in the studio Discord #updates channel."
+    },
+    {
+      "claim_id": "CLM-CLAIM-GUIDE-CODES-STATUS-001",
+      "rendered_component": "current-answer",
+      "visible_text": "Codes exist as of the game's September 19, 2026 update. Seven code strings are publicly claimed as of September 23, 2026; each row names where the string was published. None was redeemed by this site, so every reward is a public claim, not our gameplay reading."
+    },
+    {
+      "claim_id": "CLM-CLAIM-GUIDE-CODES-STATUS-002",
+      "rendered_component": "current-answer",
+      "visible_text": "How to redeem a code: open the game, open the CODES panel on the HUD (not the Roblox website), paste the string exactly (codes are case-sensitive), then check that the boost or balance actually changed. A valid-looking code can be rejected because it was already redeemed on that account, the capitalisation differs, or its claim cap is spent. No expiry dates were published with any of these codes."
     }
   ],
   "contentBlocks": [
@@ -167,48 +182,76 @@ const authorityPage = {
       "publicText": "All numbers were checked against the September 2026 version; prices and requirements can change after updates."
     },
     {
+      "classification": "version boundary",
+      "publicText": "Since our September 18 check the studio shipped at least two updates: September 19 (added the UPGRADES tab that sells Blocks-Per-Grab, Blocks-Per-Place and Placement-Range steps for Coins, plus the code system) and September 22 (Update 1.5: more pyramids, more gym areas, bug fixes). Update notes are published in the studio Discord #updates channel."
+    },
+    {
+      "classification": "current answer",
+      "publicText": "Codes exist as of the game's September 19, 2026 update. Seven code strings are publicly claimed as of September 23, 2026; each row names where the string was published. None was redeemed by this site, so every reward is a public claim, not our gameplay reading."
+    },
+    {
+      "classification": "current answer",
+      "publicText": "How to redeem a code: open the game, open the CODES panel on the HUD (not the Roblox website), paste the string exactly (codes are case-sensitive), then check that the boost or balance actually changed. A valid-looking code can be rejected because it was already redeemed on that account, the capitalisation differs, or its claim cap is spent. No expiry dates were published with any of these codes."
+    },
+    {
       "classification": "source note",
       "publicText": "Official Roblox game page. Last checked 2026-09-18."
     },
     {
       "classification": "source note",
       "publicText": "Verified video observation. Last checked 2026-09-18."
+    },
+    {
+      "classification": "source note",
+      "publicText": "Public code claims: studio Discord posts, in-game CODES panel in published gameplay footage, and two independent code lists. Checked 2026-09-23."
     }
   ],
-  "playerTask": "Progression guide: train and buy upgrades in a sensible order and check the dated codes status",
+  "playerTask": "Progression guide: train, buy upgrades, check codes and the update boundary",
   "publicSummary": "You are finished when your server completes the pyramid.",
   "route": "/guide",
   "successState": "You are finished when your server completes the pyramid.",
-  "title": "Progression guide: train and buy upgrades in a sensible order and check the dated codes status"
+  "title": "Progression guide: train, buy upgrades, check codes and the update boundary"
 };
 const approvedLinks: Array<{ href: string; label: string }> = [
   {
     "href": "/pharaoh",
     "label": "Pharaoh pass review"
+  },
+  {
+    "href": "/about",
+    "label": "Official links (game, group, Discord)"
   }
 ];
 const approvedAssets: Array<{ assetId: string; src: string; alt: string }> = [];
 const editorialVisuals: Array<{ assetId: string; src: string; alt: string; label: string }> = [];
 const officialDestinations: Array<{ href: string; label: string }> = [];
 const nextTaskSteps: string[] = [];
-const currentStatusRows: Array<{ label: string; status: string; value: string; claimId: string; component: string }> = [];
+const currentStatusRows: Array<{ label: string; status: string; value: string; claimId: string; component: string }> = [
+  { label: "UPDATE15", status: "Publicly claimed", value: "Studio Discord #updates, posted with the Update 1.5 notes of September 22, 2026 (more pyramids, more gym areas, bug fixes). Reward not stated by the studio.", claimId: "CLM-CLAIM-GUIDE-CODES-STATUS-001", component: "current-answer" },
+  { label: "UPANDCOMINGPC1", status: "Claim-capped", value: "Studio Discord #announcements, September 23, 2026, for the game topping Roblox's Up and Coming chart on PC. Capped at 1,000 claims, so it can already be spent. Reward not stated.", claimId: "CLM-CLAIM-GUIDE-CODES-STATUS-001", component: "current-answer" },
+  { label: "DISCORD2K", status: "Claim-capped", value: "Studio Discord #announcements, September 21, 2026, thanking 2,000 Discord members. Capped at 2,000 claims. Reward not stated.", claimId: "CLM-CLAIM-GUIDE-CODES-STATUS-001", component: "current-answer" },
+  { label: "UPGRADES5K", status: "Publicly claimed", value: "Studio Discord #updates, September 19, 2026 ('Use code: UPGRADES5K for 5k coins'): 5,000 Coins in the studio's own figure.", claimId: "CLM-CLAIM-GUIDE-CODES-STATUS-001", component: "current-answer" },
+  { label: "SORRYFORUPDATEBUG", status: "Publicly claimed", value: "Studio Discord #updates, September 19, 2026, apologising for an update that briefly broke the servers. Reward not stated.", claimId: "CLM-CLAIM-GUIDE-CODES-STATUS-001", component: "current-answer" },
+  { label: "WELCOME", status: "Publicly claimed", value: "Read from the in-game CODES panel in gameplay footage published September 19, 2026; +500 Speed and +500 Strength pop-ups shown. Not among the studio's Discord-posted strings.", claimId: "CLM-CLAIM-GUIDE-CODES-STATUS-001", component: "current-answer" },
+  { label: "FREECODE", status: "Publicly claimed", value: "Read from the in-game CODES panel in gameplay footage published September 19, 2026 ('Claimed FREECODE!' with the coin counter rising by about 500); an independent list dated September 22 agrees on 500 Coins.", claimId: "CLM-CLAIM-GUIDE-CODES-STATUS-001", component: "current-answer" }
+];
 export const metadata: Metadata = {
-  title: "Progression guide: train and buy upgrades in a sensible order and check the dated codes status",
-  description: "You are finished when your server completes the pyramid.",
+  title: "Progression guide: train, buy upgrades, check codes and the update boundary",
+  description: "Which Build the Pyramid! codes are publicly claimed (checked September 23, 2026), how to redeem them, the training order, and what the September 19/22 updates changed.",
   alternates: { canonical: `${siteConfig.domain}${authorityPage.route}` },
   robots: { index: true, follow: true },
   openGraph: {
     type: "website",
     url: `${siteConfig.domain.replace(/[/]+$/, "")}${authorityPage.route === "/" ? "/" : `${authorityPage.route}/`}`,
     siteName: siteConfig.name,
-    title: "Progression guide: train and buy upgrades in a sensible order and check the dated codes status",
-    description: "You are finished when your server completes the pyramid.",
+    title: "Progression guide: train, buy upgrades, check codes and the update boundary",
+    description: "Which Build the Pyramid! codes are publicly claimed (checked September 23, 2026), how to redeem them, the training order, and what the September 19/22 updates changed.",
     images: [{ url: "/opengraph-image" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Progression guide: train and buy upgrades in a sensible order and check the dated codes status",
-    description: "You are finished when your server completes the pyramid.",
+    title: "Progression guide: train, buy upgrades, check codes and the update boundary",
+    description: "Which Build the Pyramid! codes are publicly claimed (checked September 23, 2026), how to redeem them, the training order, and what the September 19/22 updates changed.",
     images: ["/opengraph-image"],
   },
 };

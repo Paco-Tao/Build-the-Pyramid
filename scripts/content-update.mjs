@@ -3,23 +3,17 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
+// Approved route manifest (projects/build-the-pyramid/approved_route_manifest.json):
+// product routes /, /guide, /pharaoh; system routes /about, /contact, /disclosure, /privacy, /terms.
 const requiredRoutes = [
   "/",
-  "/codes",
-  "/tier-list",
-  "/trello",
-  "/calculator",
-  "/squad-planner",
-  "/resource-calculator",
-  "/guides",
-  "/guides/beginner",
-  "/guides/progression",
-  "/guides/farming",
-  "/wiki",
-  "/wiki/items-and-rewards",
-  "/wiki/maps-and-systems",
-  "/wiki/builds-and-entities",
-  "/updates",
+  "/guide",
+  "/pharaoh",
+  "/about",
+  "/contact",
+  "/disclosure",
+  "/privacy",
+  "/terms",
 ];
 
 function pagePathFor(route) {
