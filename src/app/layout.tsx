@@ -1,4 +1,4 @@
-import { AdsterraPopunderGate, AdsterraSocialBarGate, AdsterraStickyRail, AdsterraGlobalFallback } from "@/components/ads";
+import { AdsterraPopunderGate, AdsterraSocialBarGate, AdsterraStickyRail, AdsterraGlobalFallback, AdsterraPortfolioSlots } from "@/components/ads";
 import type { Metadata, Viewport } from "next";
 import { Suspense } from "react";
 import Script from "next/script";
@@ -65,6 +65,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <Navbar />
         <AdsterraGlobalFallback />
         {children}
+        <AdsterraPortfolioSlots />
         <AdsterraStickyRail />
         <Footer />
       </body>

@@ -439,7 +439,7 @@ function AdsterraNativeUnit({
 }
 
 export function AdsterraSmartLink() {
-  return null;
+  return <AdsterraSmartLinkAnchor>Sponsored link</AdsterraSmartLinkAnchor>;
 }
 
 // Backward-compatible name used by first-generation site layouts.
@@ -644,5 +644,46 @@ export function AdDisclosure() {
     <p className="text-xs leading-5 text-white/42">
       This fan site may show third-party ads to support hosting and updates.
     </p>
+  );
+}
+
+function useMinViewport(px: number) {
+  const [matches, setMatches] = useState(false);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia(`(min-width: ${px}px)`);
+    const update = () => setMatches(mediaQuery.matches);
+    update();
+    mediaQuery.addEventListener("change", update);
+    return () => mediaQuery.removeEventListener("change", update);
+  }, [px]);
+
+  return matches;
+}
+
+// Renders the portfolio banner sizes that older layouts never mounted
+// (468x60 / 160x300) plus the smartlink anchor. Each slot is independently
+// config-guarded so sites without a zone simply skip it; the 468x60 unit is
+// viewport-gated so it never mounts as a hidden slot.
+export function AdsterraPortfolioSlots() {
+  const cleanAdRoute = useCleanAdRoute();
+  const wideViewport = useMinViewport(520);
+  if (cleanAdRoute) return null;
+
+  const smartLink = runtimeConfig.adsterraSmartLinkUrl ? (
+    <p className="ad-portfolio-smartlink">
+      <AdsterraSmartLinkAnchor>Sponsored link</AdsterraSmartLinkAnchor>
+    </p>
+  ) : null;
+  const showMidBanner = hasBannerSlot("468x60") && wideViewport;
+  const showSkyscraper = hasBannerSlot("160x300");
+  if (!showMidBanner && !showSkyscraper && !smartLink) return null;
+
+  return (
+    <div className="ad-placement ad-placement-portfolio">
+      {showMidBanner ? <AdsterraBannerUnit size="468x60" slotName="portfolio_468x60" /> : null}
+      {showSkyscraper ? <AdsterraBannerUnit size="160x300" slotName="portfolio_160x300" /> : null}
+      {smartLink}
+    </div>
   );
 }

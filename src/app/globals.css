@@ -351,3 +351,15 @@ a {
   background: rgba(250, 204, 21, 0.35);
   color: white;
 }
+
+/* Portfolio ad strip: extra banner sizes + sponsored link. */
+.ad-placement-portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 0 auto 18px;
+  max-width: 100%;
+}
+.ad-placement-portfolio .ad-shell { margin: 0; }
+.ad-portfolio-smartlink { margin: 0; font-size: 13px; }
