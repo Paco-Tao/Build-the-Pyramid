@@ -95,12 +95,12 @@ const authorityPage = {
     {
       "claim_id": "CLM-CLAIM-GUIDE-VERSION-002",
       "rendered_component": "version-boundary",
-      "visible_text": "Since our September 18 check the studio shipped at least two updates: September 19 (added the UPGRADES tab that sells Blocks-Per-Grab, Blocks-Per-Place and Placement-Range steps for Coins, plus the code system) and September 22 (Update 1.5: more pyramids, more gym areas, bug fixes). Update notes are published in the studio Discord #updates channel."
+      "visible_text": "Since our September 18 check the studio shipped at least three updates: September 19 (added the UPGRADES tab that sells Blocks-Per-Grab, Blocks-Per-Place and Placement-Range steps for Coins, plus the code system), September 22 (Update 1.5: more pyramids, more gym areas, bug fixes) and September 25 (Roblox shows the game was updated that day; no patch notes have been published outside the studio Discord). Update notes are published in the studio Discord #updates channel."
     },
     {
       "claim_id": "CLM-CLAIM-GUIDE-CODES-STATUS-001",
       "rendered_component": "current-answer",
-      "visible_text": "Codes exist as of the game's September 19, 2026 update. Seven code strings are publicly claimed as of September 23, 2026; each row names where the string was published. None was redeemed by this site, so every reward is a public claim, not our gameplay reading."
+      "visible_text": "Codes exist as of the game's September 19, 2026 update. Seven code strings are publicly claimed as of September 30, 2026; independent code lists checked September 24-28 still report the launch strings working and name no new string. Each row names where the string was published; independent lists now report rewards for UPDATE15 (about 50,000 Coins plus 25,000 Speed and Strength, disputed by a video) and SORRYFORUPDATEBUG (about 2,500 Coins), which the studio itself has not stated. None was redeemed by this site, so every reward is a public claim, not our gameplay reading."
     },
     {
       "claim_id": "CLM-CLAIM-GUIDE-CODES-STATUS-002",
@@ -183,11 +183,11 @@ const authorityPage = {
     },
     {
       "classification": "version boundary",
-      "publicText": "Since our September 18 check the studio shipped at least two updates: September 19 (added the UPGRADES tab that sells Blocks-Per-Grab, Blocks-Per-Place and Placement-Range steps for Coins, plus the code system) and September 22 (Update 1.5: more pyramids, more gym areas, bug fixes). Update notes are published in the studio Discord #updates channel."
+      "publicText": "Since our September 18 check the studio shipped at least three updates: September 19 (added the UPGRADES tab that sells Blocks-Per-Grab, Blocks-Per-Place and Placement-Range steps for Coins, plus the code system), September 22 (Update 1.5: more pyramids, more gym areas, bug fixes) and September 25 (Roblox shows the game was updated that day; no patch notes have been published outside the studio Discord). Update notes are published in the studio Discord #updates channel."
     },
     {
       "classification": "current answer",
-      "publicText": "Codes exist as of the game's September 19, 2026 update. Seven code strings are publicly claimed as of September 23, 2026; each row names where the string was published. None was redeemed by this site, so every reward is a public claim, not our gameplay reading."
+      "publicText": "Codes exist as of the game's September 19, 2026 update. Seven code strings are publicly claimed as of September 30, 2026; independent code lists checked September 24-28 still report the launch strings working and name no new string. Each row names where the string was published; independent lists now report rewards for UPDATE15 (about 50,000 Coins plus 25,000 Speed and Strength, disputed by a video) and SORRYFORUPDATEBUG (about 2,500 Coins), which the studio itself has not stated. None was redeemed by this site, so every reward is a public claim, not our gameplay reading."
     },
     {
       "classification": "current answer",
@@ -195,7 +195,7 @@ const authorityPage = {
     },
     {
       "classification": "source note",
-      "publicText": "Official Roblox game page. Last checked 2026-09-18."
+      "publicText": "Official Roblox game page. Last checked 2026-09-30."
     },
     {
       "classification": "source note",
@@ -203,7 +203,7 @@ const authorityPage = {
     },
     {
       "classification": "source note",
-      "publicText": "Public code claims: studio Discord posts, in-game CODES panel in published gameplay footage, and two independent code lists. Checked 2026-09-23."
+      "publicText": "Public code claims: studio Discord posts, in-game CODES panel in published gameplay footage, and independent code lists. Checked 2026-09-30."
     }
   ],
   "playerTask": "Progression guide: train, buy upgrades, check codes and the update boundary",
@@ -227,17 +227,17 @@ const editorialVisuals: Array<{ assetId: string; src: string; alt: string; label
 const officialDestinations: Array<{ href: string; label: string }> = [];
 const nextTaskSteps: string[] = [];
 const currentStatusRows: Array<{ label: string; status: string; value: string; claimId: string; component: string }> = [
-  { label: "UPDATE15", status: "Publicly claimed", value: "Studio Discord #updates, posted with the Update 1.5 notes of September 22, 2026 (more pyramids, more gym areas, bug fixes). Reward not stated by the studio.", claimId: "CLM-CLAIM-GUIDE-CODES-STATUS-001", component: "current-answer" },
+  { label: "UPDATE15", status: "Publicly claimed", value: "Studio Discord #updates, posted with the Update 1.5 notes of September 22, 2026 (more pyramids, more gym areas, bug fixes). Reward not stated by the studio. Independent code lists checked September 24 and 28, 2026 report about 50,000 Coins plus 25,000 Speed and 25,000 Strength; a gameplay video instead reports 10,000 Speed and 10,000 Strength - the reported figures disagree, so treat them as unverified claims.", claimId: "CLM-CLAIM-GUIDE-CODES-STATUS-001", component: "current-answer" },
   { label: "UPANDCOMINGPC1", status: "Claim-capped", value: "Studio Discord #announcements, September 23, 2026, for the game topping Roblox's Up and Coming chart on PC. Capped at 1,000 claims, so it can already be spent. Reward not stated.", claimId: "CLM-CLAIM-GUIDE-CODES-STATUS-001", component: "current-answer" },
   { label: "DISCORD2K", status: "Claim-capped", value: "Studio Discord #announcements, September 21, 2026, thanking 2,000 Discord members. Capped at 2,000 claims. Reward not stated.", claimId: "CLM-CLAIM-GUIDE-CODES-STATUS-001", component: "current-answer" },
   { label: "UPGRADES5K", status: "Publicly claimed", value: "Studio Discord #updates, September 19, 2026 ('Use code: UPGRADES5K for 5k coins'): 5,000 Coins in the studio's own figure.", claimId: "CLM-CLAIM-GUIDE-CODES-STATUS-001", component: "current-answer" },
-  { label: "SORRYFORUPDATEBUG", status: "Publicly claimed", value: "Studio Discord #updates, September 19, 2026, apologising for an update that briefly broke the servers. Reward not stated.", claimId: "CLM-CLAIM-GUIDE-CODES-STATUS-001", component: "current-answer" },
+  { label: "SORRYFORUPDATEBUG", status: "Publicly claimed", value: "Studio Discord #updates, September 19, 2026, apologising for an update that briefly broke the servers. Reward not stated. An independent code list published September 28, 2026 reports 2,500 Coins (unverified).", claimId: "CLM-CLAIM-GUIDE-CODES-STATUS-001", component: "current-answer" },
   { label: "WELCOME", status: "Publicly claimed", value: "Read from the in-game CODES panel in gameplay footage published September 19, 2026; +500 Speed and +500 Strength pop-ups shown. Not among the studio's Discord-posted strings.", claimId: "CLM-CLAIM-GUIDE-CODES-STATUS-001", component: "current-answer" },
   { label: "FREECODE", status: "Publicly claimed", value: "Read from the in-game CODES panel in gameplay footage published September 19, 2026 ('Claimed FREECODE!' with the coin counter rising by about 500); an independent list dated September 22 agrees on 500 Coins.", claimId: "CLM-CLAIM-GUIDE-CODES-STATUS-001", component: "current-answer" }
 ];
 export const metadata: Metadata = {
   title: "Progression guide: train, buy upgrades, check codes and the update boundary",
-  description: "Which Build the Pyramid! codes are publicly claimed (checked September 23, 2026), how to redeem them, the training order, and what the September 19/22 updates changed.",
+  description: "Which Build the Pyramid! codes are publicly claimed (checked September 30, 2026), how to redeem them, the training order, and what the September 19/22/25 updates changed.",
   alternates: { canonical: `${siteConfig.domain}${authorityPage.route}` },
   robots: { index: true, follow: true },
   openGraph: {
@@ -245,13 +245,13 @@ export const metadata: Metadata = {
     url: `${siteConfig.domain.replace(/[/]+$/, "")}${authorityPage.route === "/" ? "/" : `${authorityPage.route}/`}`,
     siteName: siteConfig.name,
     title: "Progression guide: train, buy upgrades, check codes and the update boundary",
-    description: "Which Build the Pyramid! codes are publicly claimed (checked September 23, 2026), how to redeem them, the training order, and what the September 19/22 updates changed.",
+    description: "Which Build the Pyramid! codes are publicly claimed (checked September 30, 2026), how to redeem them, the training order, and what the September 19/22/25 updates changed.",
     images: [{ url: "/opengraph-image" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Progression guide: train, buy upgrades, check codes and the update boundary",
-    description: "Which Build the Pyramid! codes are publicly claimed (checked September 23, 2026), how to redeem them, the training order, and what the September 19/22 updates changed.",
+    description: "Which Build the Pyramid! codes are publicly claimed (checked September 30, 2026), how to redeem them, the training order, and what the September 19/22/25 updates changed.",
     images: ["/opengraph-image"],
   },
 };
