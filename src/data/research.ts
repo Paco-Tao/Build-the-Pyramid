@@ -1,4 +1,4 @@
-export const researchCheckedDate = "2026-10-03";
+export const researchCheckedDate = "2026-10-06";
 
 export const editorialPolicyNote = `Every game fact on this site carries the source it came from and the date that source was checked. Facts come from four kinds of surfaces only: the official Roblox game page and store listing, the studio's own channels (the Janitors Studios group and Discord), dated community trackers and code roundups, and credited gameplay videos that this site has frame-checked. When two sources disagree, both claims are shown with their dates instead of averaging them. Numbers this site could not source are left off the site rather than guessed.`;
 
@@ -56,7 +56,23 @@ export const sourceRegister: SourceRegisterEntry[] = [
     type: "Editorial (code roundup)",
     url: "https://gamerant.com/build-the-pyramid-codes/",
     detail:
-      "Dated code roundup (updated October 2, 2026) with redemption steps. Agrees with this site's guide table on FREECODE (500 Coins), WELCOME (500 Speed and 500 Strength) and SORRYFORUPDATEBUG (2,500 Coins); its UPDATE15 figure differs from one of the two independent lists, which the guide shows as a conflict.",
+      "Dated code roundup (updated October 2, 2026) with redemption steps. Agreed with this site's guide table on FREECODE (500 Coins), WELCOME (500 Speed and 500 Strength) and SORRYFORUPDATEBUG (2,500 Coins); its UPDATE15 figure differed from one of the two independent lists, which the guide showed as a conflict. The article returned HTTP 404 at this site's October 6, 2026 check, so Radio Times and Beebom below are the roundups this site now checks.",
+    checkedDate: "2026-10-03"
+  },
+  {
+    name: "Radio Times — Build the Pyramid codes",
+    type: "Editorial (code roundup)",
+    url: "https://www.radiotimes.com/technology/gaming/build-the-pyramid-codes/",
+    detail:
+      "Code roundup published October 2, 2026 and updated October 5, 2026. First list this site checked that names SUNGOD (marked NEW!, 25k Coins); also lists DEADBYMELOL without naming a reward, and agrees on UPDATE15 (50k Coins, 25k Speed, 25k Strength), SORRYFORUPDATEBUG (2.5k), WELCOME (500/500) and FREECODE (500 Coins).",
+    checkedDate: researchCheckedDate
+  },
+  {
+    name: "Beebom — Build the Pyramid codes",
+    type: "Editorial (code roundup)",
+    url: "https://beebom.com/build-the-pyramid-codes/",
+    detail:
+      "Code roundup published October 5, 2026 ('Update: added new Build the Pyramid codes on October 5, 2026'). Names SUNGOD (25K Coins, NEW) and DEADBYMELOL (1 Coin), agrees with Radio Times on UPDATE15/SORRYFORUPDATEBUG/WELCOME/FREECODE, and marks UPANDCOMINGPC1, UPGRADES5K and DISCORD2K expired.",
     checkedDate: researchCheckedDate
   }
 ];

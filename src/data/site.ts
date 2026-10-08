@@ -5,10 +5,10 @@ export const siteConfig: SiteConfig = {
   "name": "Build the Pyramid Wiki",
   "domain": "https://buildthepyramid.wiki",
   "gameName": "Build the Pyramid!",
-  "description": "Independent Build the Pyramid! wiki: the 171,700-block first-pyramid route, the 2x-250x gym ladder, dated codes status, and the Pharaoh pass decision - sourced and checked October 3, 2026.",
+  "description": "Independent Build the Pyramid! wiki: the 171,700-block first-pyramid route, the 2x-250x gym ladder, dated codes status, and the Pharaoh pass decision - sourced and checked October 6, 2026.",
   "valueProposition": "When a player arrives (often from the Roblox store page or the viral September 2026 gameplay video), understand what Build the Pyramid! is and how to start progressing: learn the quarry-to-pyramid delivery loop, what training does, and what to unlock next",
   "shortDisclosure": "Build the Pyramid Wiki is an independent, unofficial fan resource for the Roblox game Build the Pyramid! (Janitors Studios). It is not affiliated with or endorsed by Janitors Studios or Roblox.",
-  "lastUpdated": "2026-10-03",
+  "lastUpdated": "2026-10-06",
   "freshnessLabel": "Sources checked",
   "keywords": [],
   "navGroups": [
