@@ -1,4 +1,4 @@
-export const researchCheckedDate = "2026-10-06";
+export const researchCheckedDate = "2026-10-15";
 
 export const editorialPolicyNote = `Every game fact on this site carries the source it came from and the date that source was checked. Facts come from four kinds of surfaces only: the official Roblox game page and store listing, the studio's own channels (the Janitors Studios group and Discord), dated community trackers and code roundups, and credited gameplay videos that this site has frame-checked. When two sources disagree, both claims are shown with their dates instead of averaging them. Numbers this site could not source are left off the site rather than guessed.`;
 
@@ -64,7 +64,23 @@ export const sourceRegister: SourceRegisterEntry[] = [
     type: "Editorial (code roundup)",
     url: "https://www.radiotimes.com/technology/gaming/build-the-pyramid-codes/",
     detail:
-      "Code roundup published October 2, 2026 and updated October 5, 2026. First list this site checked that names SUNGOD (marked NEW!, 25k Coins); also lists DEADBYMELOL without naming a reward, and agrees on UPDATE15 (50k Coins, 25k Speed, 25k Strength), SORRYFORUPDATEBUG (2.5k), WELCOME (500/500) and FREECODE (500 Coins).",
+      "Code roundup published October 2, 2026. The October 14, 2026 revision (modified 11:38 UTC) now leads with PETS (NEW!, 25k Coins) and SORRYFORDELAY (50k Coins) as active, keeps DEADBYMELOL (1 Coin) and SORRYFORUPDATEBUG (2.5k) active, and marks UPDATE15, SUNGOD, WELCOME, FREECODE, UPGRADES5K, UPANDCOMINGPC1 and DISCORD2K expired. Checked October 15, 2026.",
+    checkedDate: researchCheckedDate
+  },
+  {
+    name: "Eurogamer — Build the Pyramid codes",
+    type: "Editorial (code roundup)",
+    url: "https://www.eurogamer.net/build-the-pyramid-codes",
+    detail:
+      "Code roundup published October 14, 2026 (09:21 UTC). Active as of 14 October 2026: PETS (NEW, 25,000 Coins), SORRYFORDELAY (50,000 Coins), SORRYFORUPDATEBUG (2,500 Coins), DEADBYMELOL (1 Coin); expired: SUNGOD, UPDATE15, UPGRADES5K, UPANDCOMINGPC1, DISCORD2K. Its game description also mentions hatched 'stat-boosting pets'. Checked October 15, 2026.",
+    checkedDate: researchCheckedDate
+  },
+  {
+    name: "Pocket Tactics — Build the Pyramid codes",
+    type: "Editorial (code roundup)",
+    url: "https://www.pockettactics.com/build-the-pyramid-codes",
+    detail:
+      "Code roundup published September 23, 2026 and modified October 14, 2026. Names PETS (reward unspecified) alongside DEADBYMELOL (one coin), SUNGOD (25k coins), SORRYFORUPDATEBUG (2.5k coins), FREECODE (500 coins) and WELCOME (500 speed / 500 strength); does not list SORRYFORDELAY and lags on expiry. Corroborates PETS as a real string. Checked October 15, 2026.",
     checkedDate: researchCheckedDate
   },
   {
@@ -72,7 +88,7 @@ export const sourceRegister: SourceRegisterEntry[] = [
     type: "Editorial (code roundup)",
     url: "https://beebom.com/build-the-pyramid-codes/",
     detail:
-      "Code roundup published October 5, 2026 ('Update: added new Build the Pyramid codes on October 5, 2026'). Names SUNGOD (25K Coins, NEW) and DEADBYMELOL (1 Coin), agrees with Radio Times on UPDATE15/SORRYFORUPDATEBUG/WELCOME/FREECODE, and marks UPANDCOMINGPC1, UPGRADES5K and DISCORD2K expired.",
+      "Code roundup published October 5, 2026. The 'Updated: October 14, 2026' revision adds PETS (25K Coins, NEW) and SORRYFORDELAY (25K Coins) but still lists SUNGOD, UPDATE15, WELCOME and FREECODE as active and only UPANDCOMINGPC1, UPGRADES5K and DISCORD2K expired — its expiry claims conflict with the same-day Radio Times and Eurogamer revisions, and the guide shows both sides per field. Checked October 15, 2026.",
     checkedDate: researchCheckedDate
   }
 ];

@@ -49,7 +49,7 @@ const homepage = {
     {
       "href": "/guide",
       "label": "Guide",
-      "summary": "The delivery loop, the gym ladder, the September updates, and a codes table that names the source of every string (checked October 6, 2026)."
+      "summary": "The delivery loop, the gym ladder, the September and October updates, and a codes table that names the source of every string (checked October 15, 2026)."
     },
     {
       "href": "/pharaoh",
@@ -71,7 +71,7 @@ const homepage = {
     {
       "title": "Gym ladder: 2x to ADMIN 250x",
       "body": "Benches build strength, treadmills build speed, and each gym tier multiplies the gain. The 2x tier opens after your first pyramid; the ADMIN gym is the 250x ceiling the September 22 update expanded further.",
-      "source": "In-game observation, September 2026; BibiBox tracker, checked October 6, 2026"
+      "source": "In-game observation, September 2026; BibiBox tracker, checked October 6, 2026; game updated again October 14, 2026 per Roblox's official metadata"
     },
     {
       "title": "Pharaoh pass: 120-149 Robux",
@@ -94,7 +94,7 @@ const homepage = {
     },
     {
       "q": "Does Build the Pyramid! have codes?",
-      "a": "Yes. The code system launched with the September 19, 2026 update, and nine code strings were publicly claimed as of October 6, 2026 — including SUNGOD for 25,000 Coins (added on independent lists after the October 1 update) and UPDATE15 with Update 1.5; an independent list also marks three older strings expired. The guide's codes table lists every string with the channel or video it was published in and the date it was checked."
+      "a": "Yes. The code system launched with the September 19, 2026 update, and eleven code strings were publicly claimed as of October 15, 2026 — including new strings PETS (25,000 Coins) and SORRYFORDELAY (50,000 Coins per Radio Times and Eurogamer, 25,000 per Beebom), while the October 14, 2026 revisions of Radio Times and Eurogamer report SUNGOD and UPDATE15 expired and Radio Times alone reports WELCOME and FREECODE expired. The guide's codes table lists every string with the channel or video it was published in and the date it was checked."
     },
     {
       "q": "Is the Pharaoh pass worth buying?",
@@ -102,12 +102,12 @@ const homepage = {
     }
   ],
   "sources": [
-    "Official Roblox game page and store listing. Last checked 2026-10-06.",
+    "Official Roblox game page and store listing. Last checked 2026-10-15 (metadata shows the game updated October 14, 2026).",
     "Bax, \"I Can't leave Until The Pyramids are built\" (September 16, 2026). Frame-checked 2026-09-18.",
-    "BibiBox game tracker. Checked 2026-10-06.",
-    "Radio Times and Beebom code roundups (updated/published October 5, 2026). Checked 2026-10-06. The previously cited GameRant roundup returned 404 on 2026-10-06."
+    "BibiBox game tracker. Checked 2026-10-06 (re-checked 2026-10-15).",
+    "Eurogamer, Radio Times, Beebom and Pocket Tactics code roundups (dated or updated October 14, 2026). Checked 2026-10-15. The previously cited GameRant roundup returned 404 on 2026-10-06 and again on 2026-10-15."
   ],
-  "summary": "What Build the Pyramid! is (Janitors Studios, September 2026), how the shared 171,700-block pyramid loop works, the 2x-250x gym ladder, claimed codes, and the Pharaoh pass decision — sourced and dated, checked October 6, 2026.",
+  "summary": "What Build the Pyramid! is (Janitors Studios, September 2026), how the shared 171,700-block pyramid loop works, the 2x-250x gym ladder, claimed codes, and the Pharaoh pass decision — sourced and dated, checked October 15, 2026.",
   "task": "When a player arrives (often from the Roblox store page or the viral September 2026 gameplay video), understand what Build the Pyramid! is and how to start progressing: learn the quarry-to-pyramid delivery loop, what training does, and what to unlock next",
   "title": "Build the Pyramid! Wiki: what the game is, the first-pyramid route, and the Pharaoh pass",
   "visual": {
@@ -161,7 +161,7 @@ const homepage = {
 export const metadata: Metadata = { title: homepage.title, description: homepage.summary, alternates: { canonical: siteConfig.domain }, openGraph: { title: homepage.title, description: homepage.summary, url: siteConfig.domain, images: ["/opengraph-image"] } };
 
 const FIRST_SCREEN = {
-  valueProposition: "Build the Pyramid! help with the verified 171,700-block first-pyramid scale, the exact gym requirement ladder, and a sourced Pharaoh pass decision - sources checked October 6, 2026.",
+  valueProposition: "Build the Pyramid! help with the verified 171,700-block first-pyramid scale, the exact gym requirement ladder, and a sourced Pharaoh pass decision - sources checked October 15, 2026.",
   coreAnswer: "Carry blocks from the quarry to the shared pyramid counter; train at benches to carry more and treadmills to walk faster; the whole server fills the first pyramid together.",
   successState: "You can explain and run the delivery loop and know your next progression goal (train stats, unlock the 2x gym after 1 pyramid).",
   officialGameUrl: "https://www.roblox.com/games/123720558354386/Build-the-Pyramid",
