@@ -1,4 +1,4 @@
-export const researchCheckedDate = "2026-10-15";
+export const researchCheckedDate = "2026-10-23";
 
 export const editorialPolicyNote = `Every game fact on this site carries the source it came from and the date that source was checked. Facts come from four kinds of surfaces only: the official Roblox game page and store listing, the studio's own channels (the Janitors Studios group and Discord), dated community trackers and code roundups, and credited gameplay videos that this site has frame-checked. When two sources disagree, both claims are shown with their dates instead of averaging them. Numbers this site could not source are left off the site rather than guessed.`;
 
@@ -64,7 +64,7 @@ export const sourceRegister: SourceRegisterEntry[] = [
     type: "Editorial (code roundup)",
     url: "https://www.radiotimes.com/technology/gaming/build-the-pyramid-codes/",
     detail:
-      "Code roundup published October 2, 2026. The October 14, 2026 revision (modified 11:38 UTC) now leads with PETS (NEW!, 25k Coins) and SORRYFORDELAY (50k Coins) as active, keeps DEADBYMELOL (1 Coin) and SORRYFORUPDATEBUG (2.5k) active, and marks UPDATE15, SUNGOD, WELCOME, FREECODE, UPGRADES5K, UPANDCOMINGPC1 and DISCORD2K expired. Checked October 15, 2026.",
+      "Code roundup published October 2, 2026. The October 14, 2026 revision led with PETS (NEW!, 25k Coins) and SORRYFORDELAY (50k Coins) as active and marked UPDATE15, SUNGOD, WELCOME, FREECODE, UPGRADES5K, UPANDCOMINGPC1 and DISCORD2K expired. The October 22, 2026 revision (published 10:01 UTC) adds the Halloween-drop strings HALLOWEEN (5k Candy Corn), Secretbat (1x Bat Pet), HAPPYHALLOWEEN (1x Skeleton Camel Pet), JACKVSZED (100k Coins + 100k Candy Corn), CURSEDSECRET (Witch's Pot Pet), SECRETSPHINX (100k Coins) and ARISUNA (100k Coins + 100k Candy Corn), lists WELCOME and FREECODE as active again, keeps PETS, SORRYFORDELAY, DEADBYMELOL and SORRYFORUPDATEBUG active, and marks UPDATE15, SUNGOD, UPGRADES5K, UPANDCOMINGPC1 and DISCORD2K expired. Checked October 23, 2026.",
     checkedDate: researchCheckedDate
   },
   {
@@ -72,7 +72,7 @@ export const sourceRegister: SourceRegisterEntry[] = [
     type: "Editorial (code roundup)",
     url: "https://www.eurogamer.net/build-the-pyramid-codes",
     detail:
-      "Code roundup published October 14, 2026 (09:21 UTC). Active as of 14 October 2026: PETS (NEW, 25,000 Coins), SORRYFORDELAY (50,000 Coins), SORRYFORUPDATEBUG (2,500 Coins), DEADBYMELOL (1 Coin); expired: SUNGOD, UPDATE15, UPGRADES5K, UPANDCOMINGPC1, DISCORD2K. Its game description also mentions hatched 'stat-boosting pets'. Checked October 15, 2026.",
+      "Code roundup published October 14, 2026 (09:21 UTC). Active as of 14 October 2026: PETS (NEW, 25,000 Coins), SORRYFORDELAY (50,000 Coins), SORRYFORUPDATEBUG (2,500 Coins), DEADBYMELOL (1 Coin); expired: SUNGOD, UPDATE15, UPGRADES5K, UPANDCOMINGPC1, DISCORD2K. Its game description also mentions hatched 'stat-boosting pets'. The October 23, 2026 check found the page unchanged from this October 14 revision.",
     checkedDate: researchCheckedDate
   },
   {
@@ -80,7 +80,15 @@ export const sourceRegister: SourceRegisterEntry[] = [
     type: "Editorial (code roundup)",
     url: "https://www.pockettactics.com/build-the-pyramid-codes",
     detail:
-      "Code roundup published September 23, 2026 and modified October 14, 2026. Names PETS (reward unspecified) alongside DEADBYMELOL (one coin), SUNGOD (25k coins), SORRYFORUPDATEBUG (2.5k coins), FREECODE (500 coins) and WELCOME (500 speed / 500 strength); does not list SORRYFORDELAY and lags on expiry. Corroborates PETS as a real string. Checked October 15, 2026.",
+      "Code roundup published September 23, 2026. The October 22, 2026 revision adds HALLOWEEN (5k candy corn) and still names PETS (reward unspecified), DEADBYMELOL (one coin), SUNGOD (25k coins), SORRYFORUPDATEBUG (2.5k coins), FREECODE (500 coins) and WELCOME (500 speed / 500 strength); it does not list SORRYFORDELAY, the pet strings, JACKVSZED, CURSEDSECRET or SECRETSPHINX, and still shows SUNGOD active. Corroborates PETS and HALLOWEEN as real strings. Checked October 23, 2026.",
+    checkedDate: researchCheckedDate
+  },
+  {
+    name: "Dexerto — Build the Pyramid codes",
+    type: "Editorial (code roundup)",
+    url: "https://www.dexerto.com/roblox/build-the-pyramid-codes-3411170",
+    detail:
+      "Code roundup published October 21, 2026 and updated October 22, 2026 after the game's Halloween update. Active: HALLOWEEN (5,000 Candy Corn), Secretbat (1 Bat Pet), HAPPYHALLOWEEN (1 Skeleton Camel Pet), JACKVSZED (100,000 Coins + 100,000 Candy Corns), CURSEDSECRET (Witch's Pot Pet), SECRETSPHINX (100,000 Coins), PETS (25,000 Coins), SORRYFORDELAY (50,000 Coins), DEADBYMELOL (1 Coin), SORRYFORUPDATEBUG (2,500 Coins), FREECODE (500 Coins), WELCOME (500 Speed / 500 Strength); expired: SUNGOD and UPDATE15. Checked October 23, 2026.",
     checkedDate: researchCheckedDate
   },
   {
@@ -88,7 +96,7 @@ export const sourceRegister: SourceRegisterEntry[] = [
     type: "Editorial (code roundup)",
     url: "https://beebom.com/build-the-pyramid-codes/",
     detail:
-      "Code roundup published October 5, 2026. The 'Updated: October 14, 2026' revision adds PETS (25K Coins, NEW) and SORRYFORDELAY (25K Coins) but still lists SUNGOD, UPDATE15, WELCOME and FREECODE as active and only UPANDCOMINGPC1, UPGRADES5K and DISCORD2K expired — its expiry claims conflict with the same-day Radio Times and Eurogamer revisions, and the guide shows both sides per field. Checked October 15, 2026.",
+      "Code roundup published October 5, 2026. The 'Updated: October 18, 2026' revision adds HALLOWEEN (5K Candy Corn) and SORRYFORDELAY (25K Coins) but still lists SUNGOD and UPDATE15 as active and only UPANDCOMINGPC1, UPGRADES5K and DISCORD2K expired — its expiry claims conflict with the October 21–22 Dexerto and Radio Times revisions, and the guide shows both sides per field. Checked October 23, 2026.",
     checkedDate: researchCheckedDate
   }
 ];
